@@ -1,0 +1,70 @@
+.banner {
+    width: 1233px;
+    height: 540px;
+    margin: auto;
+    display: flex;
+}
+
+.banner ._1c{
+    width: 240px;
+}
+.banner ._1c ._1hang {
+    display: flex;
+}
+.banner ._1c ._1hang .hangtrai{
+    width: 35px;
+}
+.banner ._1c ._1hang .hangphai{
+    width: 183px;
+}
+
+
+
+.banner ._2c{
+    width: 585px;
+}
+
+.banner ._2c .tren{
+    height: 337px;
+}
+
+.banner ._2c .tren .myslide {
+    width: 585px;
+    height: 337px;
+}
+
+.myslide img {
+    width: 100%;
+    height: 340px;
+}
+
+.banner ._2c .duoi{
+    height: 200px;
+    display: flex;
+}
+.banner ._2c .duoi .motnua{
+    width: 50%;
+    height: 100%;
+}
+
+.banner ._3c{
+    width: 408px;
+}
+
+.banner ._3c .saudiv {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner ._3c .saudiv img {
+    width: 50%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+#s1 .carousel-indicators {
+    display: none;
+}
