@@ -1,0 +1,34 @@
+body,html {height: 100%;margin: 0;}
+
+.bo {
+    background-image: url(s1.jpg);
+    height: 100%;
+    background-size: cover;
+}
+.bo ul {
+    list-style: none;
+    font-family: segoe ui light;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+.bo ul li{
+    padding-bottom: 5px;
+}
+.bo ul li:hover {
+    margin-left: 20px;
+    transition: 0.4s;
+}
+
+.bo ul li .icon{
+    display: inline;
+    opacity: 0;
+    transition: 0.4s;
+    color: aquamarine;
+}
+.bo ul li:hover .icon{
+    opacity: 1;
+}
+.bo ul li .chu{
+    display: inline;
+}
