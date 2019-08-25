@@ -1,0 +1,9 @@
+* { margin: 0px; padding: 0px;}
+
+.card{transition: 0.4s;
+opacity: 0;}
+
+.diphai{
+	transform: translateX(200px);
+	opacity: 1;
+}
