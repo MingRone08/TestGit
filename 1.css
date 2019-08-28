@@ -1,0 +1,55 @@
+*{margin: 0px; padding: 0px;}
+
+.bo {
+	position: relative;
+	height: 250px;
+	width: 200px;
+
+	overflow: hidden;
+}
+
+.bo .hinhanh{
+	height: 100%;
+	width: 100%;
+}
+
+.bo .nenden{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+
+	background-color: black;
+	opacity: 0;
+	transition: 0.4s;
+
+	margin-left: 50px;
+}
+
+.bo:hover .nenden{
+	opacity: 0.3;
+	margin-left: 0;
+}
+
+.bo .icon{
+	position: absolute;
+	top: 95px;
+	left: 72px;
+
+	font-size: 40px;
+	color: white;
+	opacity: 0;
+	transition: 0.4s;
+
+
+}
+
+.bo:hover .icon{
+	opacity: 1;
+	transform: scale(2);
+}
+
+.btn {
+	margin-top: 10px;
+}
