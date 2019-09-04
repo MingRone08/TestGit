@@ -1,0 +1,115 @@
+*{margin:0px; padding: 0px;}
+
+ul.danhsach_1 li {
+    float: left;
+    list-style: none;
+    padding: 41px 15px;
+    color: white;
+    border-right: white solid 1px;
+}
+
+ul.danhsach_1 h1 {
+    color: white;
+    display: inline-block;
+    float: left;
+    padding: 31px;
+    border-right: white solid 1px;
+}
+
+ul.danhsach_1 h1 {}
+
+.menutren {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: yellowgreen;
+    transition: 0.4s;
+    transform: translateY(-110px);
+}
+
+.menutren.dixuong {
+    transform: translateY(0px);
+}
+
+.nutxuong {
+    width: 200px;
+    height: 20px;
+    background: #2b84dcbd;
+    text-align: center;
+    color: white;
+    padding: 10px 12px;
+    margin: auto;
+    margin-top: 10px;
+    transition: 0.4s;
+}
+
+.nutxuong:hover {
+    background: blueviolet;
+    cursor: pointer;
+}
+
+.danhsach li {
+    font-size: 15px;
+    padding-top: 8px;
+    padding-left: 6px;
+    border-top: white solid 1px;
+    margin: 20px 0px;
+    color: red;
+    font-weight: bold;
+}
+
+.danhsach h1 {
+    text-align: center;
+    padding: 10px;
+    background-color: #00fa9a66;
+    color: white;
+}
+
+.nutmora {
+    margin: auto;
+    width: 200px;
+    background: lavender;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px 12px;
+    font-family: segoe ui light;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.nutmora:hover {
+    background: coral;
+}
+
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.menutrai {
+    background: lightblue;
+    width: 400px;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    transform: translateX(-400px);
+    transition: 0.5s;
+}
+
+.menutrai.divao {
+    transform: translateX(0px);
+}
+
+body {
+    background: wheat;
+    width: 100%;
+    height: 100%;
+}
+
+.xuong {
+	transform: translateY(100px);
+}
